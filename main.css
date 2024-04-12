@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.winner-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.winner-label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.winner {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.draw {
+  width: 180px;
+  background: #2981df;
+  font-size: 20px;
+  border-radius: 40px;
+}
+
+.lottoWrap {
+  width: 100%;
+  background-color: white; 
+  height: 800px;
+}
+
+.lottoTop {
+  padding: 70px 0 30px;
+  text-align: center;
+}
+
+.lottoBtn {
+  width: 150px;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.none {
+  display: none;
+}
+.resultWrap {
+  width: 40%;
+  border: 3px solid #000;
+  margin: 0 auto;
+  height: 200px;
+  border-radius: 60px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.resultWrap .lottoTest {
+
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.result {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+  padding-bottom: 20px; 
+}
+
+
