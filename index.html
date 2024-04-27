@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Rullet</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./main.css" />
     <script src="app.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <h1>Random Rullet</h1>
-        </div>
-        <div class="text">선택하세요!</div>
-        <div class="winner-box">
-            <button class="draw lotto">로또 번호 추첨</button>
-            <button class="draw sit">자리 추첨</button>
-        </div>
+      <div class="header">
+        <h1>Random Rullet</h1>
+      </div>
+      <div class="text">선택하세요!</div>
+      <div class="winner-box">
+        <button class="draw lotto">로또 번호 추첨</button>
+        <button class="draw sit">자리 추첨</button>
+      </div>
     </div>
     <div class="lottoWrap">
-        <h2 class="lottoTop">1~45 중 무작위 숫자 6개가 생성됩니다.</h2>
-        <button class="lottoBtn">누르세요~!</button>
-        <div class="resultWrap">
-            <h3 class="lottoTest">결과 :</h3>
-           <ul class="resultWrap">
-            <!--js로 여기에 li 6개를 추가. 
-            if문으로 수열마다 색상 지정  -->
-           </ul>
-        </div>
+      <h2 class="lottoTop">1~45 중 무작위 숫자 6개가 생성됩니다.</h2>
+      <button class="lottoBtn">누르세요~!</button>
+      <div class="lastResult">
+          <div>저번주 당첨 번호:</div>
+          <div><span class="yellow">7</span> <span class="blue">14</span> <span class="blue">17</span> <span class="red">24</span> <span class="red">29</span> <span class="grey">36</span></div>
+      </div>
+      <div class="resultWrap">
+        <h3 class="lottoTest">결과 :</h3>
+        <ul class="resultInner">
+        </ul>
+      </div>
     </div>
-</body>
+  </body>
 </html>
